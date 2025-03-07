@@ -25,7 +25,6 @@ html{
     top: 0;
     left: 0;
     background-color: #FA8804; 
-    color: #000000;
     background-position: left;
     background-size: 25% auto;
     background-repeat: repeat-y;
@@ -52,6 +51,8 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #000000;
+
     font-family: 'Kenia';
     font-size: 2.7rem;
 }
@@ -80,7 +81,7 @@ html{
 }
 
 .social-media a {
-    color: #000000;
+    color: #021F59;
     width: 30px;
     height: 30px;
     display: flex;
@@ -112,13 +113,14 @@ html{
     justify-content: center;
     width: 910px;
     height: 450px;
-    border: 10px solid #000000;
+    b order: 10px solid #000000;
 }
 
 .img-wrapper{
     width: 300px;
     height: 100%;
     overflow-y: hidden;
+    padding: 5px;
 
 }
 
@@ -128,21 +130,21 @@ html{
 
 
 #home {
-    background-color: #A71F55;
+    background-color: #260101;
     z-index: 1;
 }
 
 #about {
-    background-color: #049DBF;
+    background-color: #F20505;
     z-index: 2;
 }
 
 #services {
-    background-color: #D9043D;
+    background-color: #21038C;
     z-index: 3;
 }
 
 #contact {
-    background-color: #65A603;
+    background-color: #038C73;
     z-index: 4;
 }
