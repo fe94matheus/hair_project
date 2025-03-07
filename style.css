@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 .container {
     width: 100%;
     min-height: 100vh;
@@ -20,22 +24,18 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #F25F29; /* #8B5E3B;*/
-    color: #F4A261;
-    background-image: url("africanstrip.jpg");
+    background-color: #FA8804; 
+    color: #000000;
     background-position: left;
     background-size: 25% auto;
     background-repeat: repeat-y;
-    z-index: 10; /* Ensure navbar stays on top */
+    z-index: 10; 
 }
 
 .main {
     width: 80%;
-    /*min-height: 100vh;*/
     margin-left: 20%;
-    position: relative; /* Important for stacking pages */
-
-    /* Pushes the content to the right, avoiding overlap */
+    position: relative;
 }
 
 .brand {
@@ -52,6 +52,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Kenia';
+    font-size: 2.7rem;
 }
 
 .nav-itens ul {
@@ -74,11 +76,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 1.7rem;
 }
 
 .social-media a {
-    color: #F4A261;
-    background-color: #3E2723;
+    color: #000000;
     width: 30px;
     height: 30px;
     display: flex;
@@ -99,27 +101,48 @@
     top: 0;
     left: 0;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 910px;
+    height: 450px;
+    border: 10px solid #000000;
+}
+
+.img-wrapper{
+    width: 300px;
+    height: 100%;
+    overflow-y: hidden;
+
+}
+
+.img-wrapper img{
+    width: 100%;
 }
 
 
 #home {
-    background-image: url("img/bw-portrait-beauty-black-woman.jpg");
-    background-position: top;
-    background-size: cover;
+    background-color: #A71F55;
     z-index: 1;
 }
 
 #about {
-    background-color: #000000;
+    background-color: #049DBF;
     z-index: 2;
 }
 
 #services {
-    background-color: #F4A261;
+    background-color: #D9043D;
     z-index: 3;
 }
 
 #contact {
-    background-color: #E76F51;
+    background-color: #65A603;
     z-index: 4;
 }
